@@ -12,6 +12,7 @@ build/
 develop-eggs/
 dist/
 downloads/
+vester_ai_env/
 eggs/
 .eggs/
 lib/
