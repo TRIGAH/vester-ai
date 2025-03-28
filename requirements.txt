@@ -9,7 +9,7 @@ openai==1.68.2
 python-dotenv==0.20.0
 pdf2image
 pdfplumber
-Pillow==9.5.0
+Pillow==10.3.0
 PyPDF2==3.0.1
 spacy==3.8.3
 python-pptx
