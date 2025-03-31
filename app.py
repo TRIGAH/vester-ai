@@ -12,6 +12,8 @@ Config.init_app(app)
 db.init_app(app)
 migrate = Migrate(app, db)  # Enable migrations
 
+def create_app():
+    return app
 
 @app.before_request
 def create_tables():

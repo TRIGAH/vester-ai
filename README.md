@@ -13,8 +13,12 @@ This project is a Flask-based web application that allows users to upload PDF an
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone <repo-url>
-cd <project-folder>
+git clone https://github.com/TRIGAH/vester-ai.git
+cd vester_ai
+```
+### .env
+```bash
+create a .env to store api_key
 ```
 
 ### 2️⃣ Setup Using Docker
@@ -39,7 +43,7 @@ Create a PostgreSQL database and update `SQLALCHEMY_DATABASE_URI` in `flask_file
 
 #### Run Flask Application
 ```bash
-python flask_file_upload.py
+python app.py
 ```
 
 ## API Endpoints
@@ -72,6 +76,8 @@ python flask_file_upload.py
 ## License
 MIT License
 
+
+#### commands for migrations in flask using flask-migrate
 
 # flask db init
 # flask db migrate -m "Initial migration"
